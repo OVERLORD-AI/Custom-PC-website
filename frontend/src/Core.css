@@ -1,0 +1,43 @@
+/* Core.css */
+
+body {
+    background-color: #2e2e2e; /* Dark gray background for the entire page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .core-container {
+    background-color: #2e2e2e; /* Ensure the container background is also dark gray */
+    padding: 20px;
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  }
+  
+  .core-title {
+    color: red; /* Red color for the title */
+    margin-bottom: 20px;
+    text-align: center; /* Center-align the title */
+  }
+  
+  .core-card {
+    background-color: #424242; /* Slightly lighter gray for the cards */
+    color: white; /* Default text color */
+  }
+  
+  .config-key {
+    color: darkorange; /* Dark yellow color for the configuration keys */
+  }
+  
+  .config-value {
+    color: white; /* White color for the configuration values */
+  }
+  
+  .product-name {
+    font-family: 'Courier New', Courier, monospace; /* Custom font for product names */
+    color: #47ffe0f5; /* Tomato color for product names */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center-align the product name */
+    margin-bottom: 15px; /* Add some space below the product name */
+  }
+  
